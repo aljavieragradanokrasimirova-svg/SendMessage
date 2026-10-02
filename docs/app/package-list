@@ -1,0 +1,20 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.example.sendmessage.model////PointingToDeclaration/app/com.example.sendmessage.model/index.html
+$dokka.location:com.example.sendmessage.model/Message///PointingToDeclaration/app/com.example.sendmessage.model/-message/index.html
+$dokka.location:com.example.sendmessage.model/Message/Message/#kotlin.String#com.example.sendmessage.model.Person/PointingToDeclaration/app/com.example.sendmessage.model/-message/-message.html
+$dokka.location:com.example.sendmessage.model/Message/sender/#/PointingToDeclaration/app/com.example.sendmessage.model/-message/sender.html
+$dokka.location:com.example.sendmessage.model/Message/text/#/PointingToDeclaration/app/com.example.sendmessage.model/-message/text.html
+$dokka.location:com.example.sendmessage.model/Person///PointingToDeclaration/app/com.example.sendmessage.model/-person/index.html
+$dokka.location:com.example.sendmessage.model/Person/Person/#kotlin.String/PointingToDeclaration/app/com.example.sendmessage.model/-person/-person.html
+$dokka.location:com.example.sendmessage.model/Person/name/#/PointingToDeclaration/app/com.example.sendmessage.model/-person/name.html
+$dokka.location:com.example.sendmessage////PointingToDeclaration/app/com.example.sendmessage/index.html
+$dokka.location:com.example.sendmessage/MainActivity.Companion///PointingToDeclaration/app/com.example.sendmessage/-main-activity/-companion/index.html
+$dokka.location:com.example.sendmessage/MainActivity.Companion/EXTRA_MESSAGE/#/PointingToDeclaration/app/com.example.sendmessage/-main-activity/-companion/-e-x-t-r-a_-m-e-s-s-a-g-e.html
+$dokka.location:com.example.sendmessage/MainActivity///PointingToDeclaration/app/com.example.sendmessage/-main-activity/index.html
+$dokka.location:com.example.sendmessage/MainActivity/MainActivity/#/PointingToDeclaration/app/com.example.sendmessage/-main-activity/-main-activity.html
+$dokka.location:com.example.sendmessage/ViewActivity.Companion///PointingToDeclaration/app/com.example.sendmessage/-view-activity/-companion/index.html
+$dokka.location:com.example.sendmessage/ViewActivity///PointingToDeclaration/app/com.example.sendmessage/-view-activity/index.html
+$dokka.location:com.example.sendmessage/ViewActivity/ViewActivity/#/PointingToDeclaration/app/com.example.sendmessage/-view-activity/-view-activity.html
+com.example.sendmessage
+com.example.sendmessage.model
