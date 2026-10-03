@@ -30,15 +30,18 @@ jobs:
         run: chmod +x gradlew
 
       - name: Generar la documentación HTML con Dokka
-        run: ./gradlew dokkaGenerate
+        run: ./gradlew :app:dokkaGeneratePublicationHtml
+
+      - name: Comprobar que se ha generado la página de entrada
+        run: test -s docs/index.html
 
       - name: Evitar que Jekyll rompa el formato de Dokka
-        run: touch documentation/.nojekyll
+        run: touch docs/.nojekyll
 
       - name: Empaquetar la carpeta generada
         uses: actions/upload-pages-artifact@v3
         with:
-          path: documentation
+          path: docs
 
       - name: Publicar en GitHub Pages
         id: deployment
