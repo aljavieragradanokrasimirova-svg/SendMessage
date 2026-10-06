@@ -6,15 +6,15 @@ El nombre «enviar» se refiere al paso de datos entre pantallas de esta aplicac
 
 ## Aplicación en ejecución
 
-Capturas reales del emulador Pixel 5, obtenidas durante la sesión del 28 al 29 de septiembre de 2026. Muestran la versión anterior, cuando todavía no se solicitaba el remitente; están pendientes de renovación.
+Capturas reales del emulador Pixel, tomadas el 6 de octubre de 2026. Muestran el envío de un mensaje junto con su remitente y la recepción de ambos en la segunda pantalla.
 
 ### Escribir el mensaje
 
-<img src="documentacion/imagenes/pantalla-envio.png" alt="Primera pantalla con el mensaje escrito y el botón Enviar mensaje" width="300">
+<img src="Screenshots/Screenshot_20261006_094927.png" alt="Formulario con el remitente Paco, el mensaje Pocholo y el botón Enviar mensaje" width="300">
 
 ### Ver el mensaje recibido
 
-<img src="documentacion/imagenes/pantalla-recepcion.png" alt="Segunda pantalla con el mismo mensaje y el icono vectorial de chat" width="300">
+<img src="Screenshots/Screenshot_20261006_094938.png" alt="Segunda pantalla con De: Paco, el mensaje Pocholo y el icono vectorial de chat" width="300">
 
 ## Estructura del proyecto
 
@@ -31,7 +31,8 @@ Capturas reales del emulador Pixel 5, obtenidas durante la sesión del 28 al 29 
 | `app/src/main/AndroidManifest.xml` | Declara las actividades y la pantalla de inicio. |
 | `app/src/androidTest/` | Pruebas ejecutadas en el emulador. |
 | `gradle/libs.versions.toml` | Catálogo de versiones y dependencias. |
-| `documentacion/imagenes/` | Evidencias visuales utilizadas en este README. |
+| `Screenshots/` | Capturas actuales del formulario y del mensaje recibido. |
+| `documentacion/imagenes/` | Evidencias de Logcat y del directorio de la aplicación. |
 
 ## Decisiones de diseño
 
@@ -88,8 +89,9 @@ La siguiente imagen muestra el acceso al directorio privado `/data/data/com.exam
 - [Manual de usuario en tres pasos](MANUAL_USUARIO.md).
 - [Historial de versiones](CHANGELOG.md).
 - Documentación KDoc: incluida en los ficheros Kotlin.
-- La generación HTML con Dokka es la tarea 6 y todavía está pendiente. No se afirma que exista ya una documentación generada en `/docs`.
-- Este README y las imágenes están preparados localmente para GitHub. Su publicación en un repositorio se realizará en la tarea correspondiente; no se ha creado ni publicado un repositorio como parte de la tarea 7.
+- Documentación HTML generada con Dokka en `docs/`. La generación, la compilación y las pruebas unitarias se comprobaron de nuevo el 6/10/2026.
+- [Documentación publicada en GitHub Pages](https://aljavieragradanokrasimirova-svg.github.io/SendMessage/).
+- [Repositorio en GitHub](https://github.com/aljavieragradanokrasimirova-svg/SendMessage). El workflow `.github/workflows/desplegar-dokka.yml` genera y publica la documentación.
 
 ## Referencias oficiales
 
