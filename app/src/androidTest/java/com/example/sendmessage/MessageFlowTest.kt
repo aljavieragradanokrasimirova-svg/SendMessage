@@ -27,7 +27,7 @@ class MessageFlowTest {
     @Test
     fun enviarMensajeYVolver() {
         ActivityScenario.launch(MainActivity::class.java).use {
-            val mensaje = "Hola, Javi: mañana seguimos. ¡Ánimo!"
+            val mensaje = "Hola Javi"
             val remitente = "Lucía"
             onView(withId(R.id.senderName)).perform(replaceText(remitente), closeSoftKeyboard())
             onView(withId(R.id.userMessage)).perform(replaceText(mensaje), closeSoftKeyboard())

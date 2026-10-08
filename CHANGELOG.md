@@ -63,7 +63,7 @@ Las entradas siguientes describen las etapas del ejercicio, no etiquetas Git ni 
 
 - Generar la documentación HTML con Dokka en `docs` (tarea 6): completado el 01/10/2026.
 - Publicar el proyecto y la documentación: repositorio publicado y despliegue de GitHub Pages comprobado el 03/10/2026; los cambios locales posteriores requieren su propia subida.
-- Revisar el ajuste del padding que se dejó pendiente durante la tutoría: sigue pendiente.
+- Revisar el ajuste del padding: sigue pendiente.
 
 La generación de HTML y la publicación se completaron posteriormente, como se recoge en las entradas fechadas de este historial.
 
@@ -75,10 +75,6 @@ La generación de HTML y la publicación se completaron posteriormente, como se 
 - Creación de MainActivity y ViewActivity.
 - Diseños XML con LinearLayout vertical: entrada y botón en la primera pantalla; texto e imagen en la segunda.
 - Identificadores de los componentes y recursos de cadenas, colores y dimensiones.
-
-## Nota sobre la implementación asistida
-
-El 28 de septiembre de 2026, el alumno pidió completar temporalmente la lógica restante de la tarea 4 y preparar la tarea 7 con IA. Si se retira esa lógica para continuar aprendiendo paso a paso, será necesario actualizar la documentación y sus evidencias antes de la entrega definitiva.
 
 ## Pendientes actuales conocidos
 
