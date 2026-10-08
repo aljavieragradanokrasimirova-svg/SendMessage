@@ -17,6 +17,8 @@ import com.example.sendmessage.model.Message
  *
  * @see MainActivity
  * @see android.content.Intent.getSerializableExtra
+ * @author Javi
+ * @version 1.0
  */
 class ViewActivity : AppCompatActivity() {
     companion object {

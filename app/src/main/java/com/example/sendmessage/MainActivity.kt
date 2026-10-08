@@ -21,6 +21,8 @@ import com.example.sendmessage.model.Person
  *
  * @see ViewActivity
  * @see android.content.Intent
+ * @author Javi
+ * @version 1.0
  */
 class MainActivity : AppCompatActivity() {
     companion object {
